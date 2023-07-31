@@ -1,3 +1,4 @@
+import React from 'react';
 import { Route, BrowserRouter } from 'react-router-dom'
 import routes from './components/pages/index'
 function App() {
