@@ -64,7 +64,7 @@
                 if ( currMenuType === 'mobile' ) {
                     var $mobileMenu = $('#mainnav').attr('id', 'mainnav-mobi');
                     var hasChildMenu = $('#mainnav-mobi').find('li:has(ul)');
-                    var logomobileMenu = $('#mainnav-mobi').find('ul.menu >li').first().before('<li id="logo" class="logo-mobi"><a href="index.html"><img src="images/logo/02.png" alt="images" data-width="122" data-height="34" data-retina="images/logo/02@2x.png"></a></li>');
+                    var logomobileMenu = $('#mainnav-mobi').find('ul.menu >li').first().before('<li id="logo" class="logo-mobi"><a href="index.html"><img src="images/logo/02.png" alt="images" data-width="122" data-height="34" data-retina="images/02.png"></a></li>');
 
                     $('#header').after($mobileMenu);
                     hasChildMenu.children('ul').hide();
